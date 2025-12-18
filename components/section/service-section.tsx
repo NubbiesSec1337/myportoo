@@ -1,7 +1,7 @@
 import React from "react";
 import ServiceCard from "../component/service-card";
 import Title from "../ui/title";
-import { Globe, Headset, Palette, Phone, TrendingUp, Zap } from "lucide-react";
+import { Globe, Headset, Palette, Phone, TrendingUp, Zap, Shield, Bug } from "lucide-react";
 
 export const Services = [
   {
@@ -31,7 +31,7 @@ export const Services = [
   {
     title: "Business Growth & Analytics",
     description:
-      "Using data-driven insights to enhance your brand’s growth and make well-informed business decisions.",
+      "Using data-driven insights to enhance your brand's growth and make well-informed business decisions.",
     icon: TrendingUp,
   },
   {
@@ -39,6 +39,18 @@ export const Services = [
     description:
       "Ongoing support and maintenance to ensure your website stays updated, secure, and reliable.",
     icon: Headset,
+  },
+  {
+    title: "Web3 & Smart Contract Security",
+    description:
+      "Comprehensive security audits and penetration testing for smart contracts and Web3 projects to identify vulnerabilities.",
+    icon: Shield,
+  },
+  {
+    title: "Bug Bounty & Vulnerability Assessment",
+    description:
+      "Professional bug bounty hunting and security assessments to help you discover and fix critical vulnerabilities before they're exploited.",
+    icon: Bug,
   },
 ];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Marquee from "../ui/marquee";
-import { ReviewCard, reviews } from "./review";
+import { ReviewCard, reviews } from "./components/component/review";
 import DotPattern from "../ui/dot-pattern";
 import { cn } from "@/lib/utils";
 

@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "./profile";
 import { ChevronsRight, Menu } from "lucide-react";
 import Link from "next/link";
-import { ModeToggle } from "./theme-toggle";
+import { ModeToggle } from "./components/component/theme-toggle";
 
 const Links = [
   { name: "Home", href: "/" },
